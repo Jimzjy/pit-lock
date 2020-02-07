@@ -1,6 +1,7 @@
 module.exports = {
   pwa: {
-    name: 'Pit Lock'
+    name: 'Pit Lock',
+    themeColor: '#333843'
   },
   chainWebpack: (config) => {
     config
