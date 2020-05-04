@@ -2,7 +2,7 @@
   <div class="login">
     <div class="login_input_wrapper">
       <input class="login_input" placeholder="用户名" v-model="name"/>
-      <input class="login_input" placeholder="密码" v-model="password"/>
+      <input class="login_input" type="password" placeholder="密码" v-model="password"/>
     </div>
     <div class="login_button_wrapper">
       <div class="login_button" @click="onLoginClick">登录</div>
